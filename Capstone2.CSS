@@ -1,0 +1,112 @@
+.content {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: #EFEFD0;
+    margin-top: 5em;
+    font-size: 1.2em;
+    margin: 10%;
+    line-height: 2em;  
+}
+@media only screen and (max-width: 768px) {
+    .content {
+      font-size: 1em;
+    }
+  }
+/* the table*/
+.tableContain {
+    text-align: center;
+    left: 1em;
+    position: absolute;
+}
+.quote {
+    font-family: 'Goblin One', cursive;
+    color: #FF6B35;
+    font-size: x-large;
+}
+body {
+    background-color: #EFEFD0;
+}
+/* nav*/ 
+ul {
+    list-style-type: none;
+    margin: 0em;
+    padding: 0;
+    overflow: hidden;
+    background-color:  #004E89;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+  
+  li {
+    float: left;
+    border-right: 1px solid #bbb;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #1A659E;
+  }
+  li a:active {
+      background-color: #006E89 ;
+      color: #FF6B35;
+  }
+  
+  .active {
+    background-color: #D14081;
+  }
+
+ 
+  .foot {
+    position:fixed;
+    left:0px;
+    bottom:1px;
+    height:1%;
+    width:100%;
+    background: #1A659E;
+    position: absolute;
+    top: 120%;
+    margin-top: 10em;
+ }
+
+ .link {
+     color: #1A659E;
+    text-decoration: none;
+     }
+
+
+  .link:hovor {
+        color: #D14081;
+       text-decoration: none;
+        }
+ 
+
+        .quiz {
+            width: 25%;
+            height: 25%;
+            background-color: red;
+            position: relative;
+            text-align: center;
+            animation: myfirst 5s linear 2s infinite alternate;
+            bottom: 1em;
+            margin-top: 5em;
+          }
+          @keyframes myfirst {
+            0%   {background-color:red; left:0em; top:0em;}
+            25%  {background-color:yellow; left:10em; top:0em;}
+            50%  {background-color:blue; left:10em; top:10em;}
+            75%  {background-color:green; left:0em; top:10em;}
+            100% {background-color:red; left:0em; top:0em;}
+          }
+
+          .about {
+              margin-top: 15em;
+          }
